@@ -145,6 +145,11 @@ a img {
 
 /* GLOBAL STYLES */
 
+html {
+    box-shadow: 0 0 0 30px #051130 inset;
+    padding: 0 30px;
+}
+
 h1 {
     font-size: 7vw;
     margin-top: 0;
@@ -203,6 +208,8 @@ h2+p {
     text-decoration: none;
     vertical-align: middle;
     width: 2.5em;
+    margin-left: 50%;
+    transform: translate(-50%)
 }
 
 .social-link:hover {
@@ -336,4 +343,8 @@ h2+p {
     left: -3.3vw;
     color: #fff;
     margin-bottom: 500px;
+}
+
+.header-logo svg:hover {
+    color: #ed6e2f;
 }
